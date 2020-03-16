@@ -33,4 +33,4 @@ jobs:
         AZURE_WEBAPP_NAME: ${{ secrets.AZURE_WEBAPP_NAME }}
         AZURE_DEFAULT_HOST: ${{ secrets.AZURE_DEFAULT_HOST }}
       run: |
-        curl --data-binary @test.zip --insecure https://$AZURE_WEBAPP_PUBLISHING_USER:$AZURE_WEBAPP_PUBLISHING_PWD@app9.scm.anwestgk8se.k4apps-test.io/api/zipdeploy -v
+        curl --data-binary @test.zip --insecure https://$AZURE_WEBAPP_PUBLISHING_USER:$AZURE_WEBAPP_PUBLISHING_PWD@mvpsummit02.scm.march01.k4apps-test.io/api/zipdeploy -v
