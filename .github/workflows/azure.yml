@@ -1,6 +1,6 @@
 on: [push]
 
-name: Hello Snake!
+name: Hello Snakes!
 
 jobs:
   build-and-deploy:
